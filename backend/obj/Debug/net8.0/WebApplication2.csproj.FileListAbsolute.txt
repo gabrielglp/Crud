@@ -1,0 +1,150 @@
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\appsettings.json
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\WebApplication2.exe
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\WebApplication2.deps.json
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\WebApplication2.runtimeconfig.json
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\WebApplication2.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\WebApplication2.pdb
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gabriel\source\repos\WebApplication2\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.csproj.AssemblyReference.cache
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.AssemblyInfoInputs.cache
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.AssemblyInfo.cs
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication2.props
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication2.props
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication2.props
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\scopedcss\bundle\WebApplication2.styles.css
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebAppli.0DB3FC1A.Up2Date
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.dll
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\refint\WebApplication2.dll
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.pdb
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\WebApplication2.genruntimeconfig.cache
+C:\Users\Gabriel\source\repos\WebApplication2\obj\Debug\net8.0\ref\WebApplication2.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\appsettings.json
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\WebApplication2.exe
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\WebApplication2.deps.json
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\WebApplication2.runtimeconfig.json
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\WebApplication2.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\WebApplication2.pdb
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gabriel\source\repos\backend Crud\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.csproj.AssemblyReference.cache
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.AssemblyInfoInputs.cache
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.AssemblyInfo.cs
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication2.props
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication2.props
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication2.props
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\scopedcss\bundle\WebApplication2.styles.css
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebAppli.0DB3FC1A.Up2Date
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.dll
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\refint\WebApplication2.dll
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.pdb
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\WebApplication2.genruntimeconfig.cache
+C:\Users\Gabriel\source\repos\backend Crud\obj\Debug\net8.0\ref\WebApplication2.dll
