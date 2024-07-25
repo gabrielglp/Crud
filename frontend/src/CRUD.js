@@ -1,14 +1,5 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { useState, useEffect } from 'react';
 
-import { Table } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import axios from 'axios';
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -31,28 +22,7 @@ const CRUD = () => {
 
   const BASE_URL = 'https://localhost:7249/api/Employee';
 
-  const empdata = [
-    {
-      id: 1,
-      name: 'Manoj',
-      age: 23,
-      isActive: 1,
-    },
-    {
-      id: 2,
-      name: 'Suza',
-      age: 21,
-      isActive: 1,
-    },
-    {
-      id: 3,
-      name: 'Martins',
-      age: 30,
-      isActive: 0,
-    },
-  ];
-
-  const [data, setData] = useState([empdata]);
+  const [data, setData] = useState();
 
   useEffect(() => {
     getData();
@@ -87,7 +57,7 @@ const CRUD = () => {
 
   const handleDelete = (id) => {
     const deleteUrl = `${BASE_URL}/${id}`;
-    if (window.confirm('Are you sure to delete this employee') == true) {
+    if (window.confirm('Are you sure to delete this employee') === true) {
       axios
         .delete(deleteUrl)
         .then((result) => {
@@ -168,136 +138,176 @@ const CRUD = () => {
     }
   };
 
-  return (
-    <div className="bg-red p-96">
-      <Fragment>
-        <ToastContainer />
-        <Container>
-          <Row>
-            <Col>
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Enter Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </Col>
-            <Col>
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Enter Age"
-                value={age}
-                onChange={(e) => setAge(e.target.value)}
-              />
-            </Col>
-            <Col>
-              <input
-                type="checkbox"
-                checked={isActive === 1 ? true : false}
-                onChange={(e) => handleActiveChange(e)}
-                value={isActive}
-              />
-              <label>isActive</label>
-            </Col>
-            <Col>
-              <button className="btn btn-primary" onClick={(e) => handleSave()}>
-                Submit
-              </button>
-            </Col>
-          </Row>
-        </Container>
-        <Table striped bordered hover>
-          <thead>
-            <tr>
-              <th>#</th>
-              {/* <th>ID</th> */}
-              <th>Name</th>
-              <th>Age</th>
-              <th>isActive</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {data && data.length > 0
-              ? data.map((item, index) => {
-                  return (
-                    <tr key={index}>
-                      <tb>{index + 1}</tb>
-                      {/* <td>{item.id}</td> */}
-                      <td>{item.name}</td>
-                      <td>{item.age}</td>
-                      <td>{item.isActive}</td>
-                      <td colSpan={2}>
-                        <button
-                          className="btn btn-primary"
-                          onClick={() => handleEdit(item.id)}
-                        >
-                          edit
-                        </button>{' '}
-                        &nbsp;
-                        <button
-                          className="btn btn-danger"
-                          onClick={() => handleDelete(item.id)}
-                        >
-                          Delete
-                        </button>
-                      </td>
-                    </tr>
-                  );
-                })
-              : 'Loading...'}
-          </tbody>
-        </Table>
+  const isFormValid = () => {
+    return name.trim() !== '' && age.trim() !== '';
+  };
 
-        <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>Modify / Update Employee</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <Container>
-              <Row>
-                <Col>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Enter Name"
-                    value={editName}
-                    onChange={(e) => setEditName(e.target.value)}
-                  />
-                </Col>
-                <Col>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Enter Age"
-                    value={editAge}
-                    onChange={(e) => setEditAge(e.target.value)}
-                  />
-                </Col>
-                <Col>
-                  <input
-                    type="checkbox"
-                    checked={editIsActive === 1 ? true : false}
-                    onChange={(e) => handleEditActiveChange(e)}
-                    value={editIsActive}
-                  />
-                  <label>isActive</label>
-                </Col>
-              </Row>
-            </Container>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-            <Button variant="primary" onClick={handleUpdate}>
-              Save Changes
-            </Button>
-          </Modal.Footer>
-        </Modal>
-      </Fragment>
+  const handleAgeChange = (e) => {
+    const value = e.target.value;
+    if (/^\d*$/.test(value)) {
+      setAge(value);
+    }
+  };
+
+  return (
+    <div>
+      <ToastContainer />
+      <div className="p-4 flex justify-center items-center flex-col md:flex-row">
+        <div>
+          <input
+            type="text"
+            className="border rounded px-2 w-52 h-8 mr-2 md:mr-4"
+            placeholder="Enter Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <span className="font-bold">:</span>
+          <input
+            type="text"
+            className="border rounded px-2 w-20 h-8 ml-2 md:ml-4 md:mr-10"
+            placeholder="Age"
+            value={age}
+            onChange={handleAgeChange}
+            min="0"
+          />
+        </div>
+
+        <div className="flex mt-2 md:mt-0">
+          <div className="p-0.5 px-1 md:py-1 bg-gray-200 rounded flex items-center">
+            <input
+              type="checkbox"
+              className=""
+              checked={isActive === 1 ? true : false}
+              onChange={(e) => handleActiveChange(e)}
+              value={isActive}
+            />
+            <label className="ml-2">isActive</label>
+          </div>
+
+          <button
+            className={`md:ml-12 w-full md:w-auto px-6 py-1 bg-blue-400 text-white rounded ml-2 ${
+              !isFormValid() ? 'cursor-not-allowed opacity-50' : ''
+            }`}
+            onClick={() => handleSave()}
+            disabled={!isFormValid()}
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <div className="flex flex-col">
+        <thead className="flex">
+          <tr className="flex justify-between w-full border-b border-t bg-gray-300">
+            <th className="w-1/5 border-l border-r">#</th>
+            {/* <th>ID</th> */}
+            <th className="w-1/5 border-l border-r">Name</th>
+            <th className="w-1/5 border-l border-r">Age</th>
+            <th className="w-1/5 border-l border-r">isActive</th>
+            <th className="w-1/5 border-r">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data && data.length > 0
+            ? data.map((item, index) => {
+                return (
+                  <tr
+                    key={index}
+                    className="flex justify-between w-full hover:bg-gray-300 border-b"
+                  >
+                    <tb className="w-1/5 p-4 border-l border-r">{index + 1}</tb>
+                    {/* <td>{item.id}</td> */}
+                    <td className="w-1/5 p-4 border-l border-r">{item.name}</td>
+                    <td className="w-1/5 p-4 border-l border-r">{item.age}</td>
+                    <td className="w-1/5 p-4 border-l border-r">
+                      {item.isActive === 1 ? 'Yes' : 'No'}
+                    </td>
+                    <td
+                      colSpan={2}
+                      className="w-1/5 p-4 flex flex-col lg:flex-row"
+                    >
+                      <button
+                        className="sm:px-6 bg-blue-400 text-white rounded"
+                        onClick={() => handleEdit(item.id)}
+                      >
+                        Edit
+                      </button>{' '}
+                      &nbsp;
+                      <button
+                        className="sm:px-4 bg-red-500 text-white rounded"
+                        onClick={() => handleDelete(item.id)}
+                      >
+                        Delete
+                      </button>
+                    </td>
+                  </tr>
+                );
+              })
+            : 'Loading...'}
+        </tbody>
+      </div>
+
+      {show && (
+        <div className="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50">
+          <div className="bg-white p-4 w-full max-w-xl max-h-screen overflow-auto rounded">
+            <div className="flex justify-between border-b mb-4 items-center">
+              <div className="mb-2">
+                <h1 className="font-bold">Modify / Update Employee</h1>
+              </div>
+              <button className="mb-2" onClick={handleClose}>
+                <img
+                  className="w-4"
+                  src="https://static-00.iconduck.com/assets.00/close-icon-2048x2047-22z7exfk.png"
+                  alt="close icon"
+                />
+              </button>
+            </div>
+            <div className="flex mb-4 items-center border-b">
+              <div>
+                <input
+                  type="text"
+                  className="border rounded px-2 w-52 h-8 mr-2 md:mr-4 mb-6"
+                  placeholder="Enter Name"
+                  value={editName}
+                  onChange={(e) => setEditName(e.target.value)}
+                />
+                <span className="font-bold">:</span>
+                <input
+                  type="text"
+                  className="border rounded px-2 w-20 h-8 ml-2 md:ml-4 md:mr-10 mb-6"
+                  placeholder="Enter Age"
+                  value={editAge}
+                  onChange={(e) => setEditAge(e.target.value)}
+                />
+              </div>
+              <div className="p-0.5 px-1 md:py-1 bg-gray-200 rounded flex items-center mb-6">
+                <input
+                  type="checkbox"
+                  checked={editIsActive === 1 ? true : false}
+                  onChange={(e) => handleEditActiveChange(e)}
+                  value={editIsActive}
+                />
+                <label className="ml-2">isActive</label>
+              </div>
+            </div>
+            <div className="flex justify-end">
+              <button
+                className="mr-2 w-full md:w-auto px-14 py-1 bg-gray-500 text-white rounded"
+                variant="secondary"
+                onClick={handleClose}
+              >
+                Close
+              </button>
+              <button
+                className="w-full md:w-auto px-6 py-1 bg-blue-400 text-white rounded font-bold"
+                variant="primary"
+                onClick={handleUpdate}
+              >
+                Save Changes
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

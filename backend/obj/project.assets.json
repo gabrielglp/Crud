@@ -4568,11 +4568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\crud\\Crud\\backend\\WebApplication2.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\Crud\\backend\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\Gabriel\\Documents\\crud\\Crud\\backend\\WebApplication2.csproj",
+      "projectPath": "C:\\Users\\Gabriel\\Desktop\\Crud\\backend\\WebApplication2.csproj",
       "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Documents\\crud\\Crud\\backend\\obj\\",
+      "outputPath": "C:\\Users\\Gabriel\\Desktop\\Crud\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
